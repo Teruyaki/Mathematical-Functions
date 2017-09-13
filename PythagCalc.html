@@ -1,0 +1,20 @@
+<html>
+
+	<body>
+		<script type="text/javascript">
+			function kam() {
+			var a = A.value;
+  			var b = B.value;
+  			var c = Math.pow(a,2) + Math.pow(b,2);
+  			document.getElementById('C').innerHTML = Math.sqrt(c);
+		}
+		</script>
+		<h1>A:</h1>
+		<input type="number" id="A">
+		<h1>B:</h1>
+		<input type="number" id="B">
+		<br>
+		<h1 id="C"></h1>
+		<button onclick="kam()">Show C</button>
+	</body>
+</html>
